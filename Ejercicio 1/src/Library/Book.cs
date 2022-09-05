@@ -5,11 +5,11 @@ namespace SRP
     public class Book
     {
 
-        public string Title { get ; }
-        public string Author { get ; }
-        public string Code { get ;  }
+        public string Title { get; }
+        public string Author { get; }
+        public string Code { get; }
 
-        public Location Place { get ; set; }
+        public Location Place { get; set; }
 
         public Book(String title, String author, String code)
         {
@@ -24,6 +24,6 @@ namespace SRP
             this.LibraryShelve = shelve;
         }
         Esta clase se extrajo debido a que se creo una clase con la especialización de esta responsabilidad
-*/
+        */
     }
 }

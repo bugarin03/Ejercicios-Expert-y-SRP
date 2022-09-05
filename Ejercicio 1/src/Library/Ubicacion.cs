@@ -20,5 +20,5 @@ public class Location
 
 /*
 Cree esta clase con el proposito de seguir los patrones y principios ya que de la forma que estaba antes habian varias razones para 
-editar la clasee Libro
+editar la clase Libro
 */
