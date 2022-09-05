@@ -3,16 +3,16 @@ using System;
 
 namespace Library;
 
-public class Doctor 
+public class Patient
 {
     public string Name { get; set; }
-    public string Specialty { get; set; }
+    public string Years { get; set; }
 
 
-    public Doctor (string Name , string Specialty )
+    public Patient (string Name , string Years )
     {
         this.Name = Name;
-        this.Specialty = Specialty;
+        this.Years = Years;
     }
 }
 
